@@ -1,0 +1,136 @@
+@charset 'UTF-8';
+
+/* Slider */
+
+.slick-loading .slick-list {
+    background: #fff url('../images/ajax-loader.gif') center center no-repeat;
+}
+
+
+/* Arrows */
+
+.slick-slider {
+    position: relative;
+}
+
+.slick-prev,
+.slick-next {
+    border: 1px solid rgba(255, 197, 118, 0.3);
+    border-radius: 2px;
+    width: 40px;
+    height: 40px;
+    line-height: 0px;
+    font-size: 14px;
+    text-align: center;
+    background-color: transparent;
+    color: #ffc576;
+    cursor: pointer;
+    display: inline-block;
+    z-index: 3;
+    overflow: hidden;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    position: absolute;
+    right: 0;
+    bottom: calc(100% + 30px);
+}
+
+.slick-prev {
+    right: 60px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    background-color: #ffc576;
+    color: #1f2235;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    content: '' !important;
+}
+
+
+/* Dots */
+
+.slick-dots {
+    position: static;
+    display: block;
+    width: 100%;
+    padding: 0px 10px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    margin: 25px 3px 0 3px;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 8px;
+    height: 8px;
+    padding: 0px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    outline: none;
+}
+
+.slick-dots li button {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #ffc576;
+    border-radius: 20px;
+    opacity: 0.2;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.slick-dots li button:hover {
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button {
+    opacity: 1;
+    color: black;
+}
+
+.photo-slider .slick-prev,
+.photo-slider .slick-next {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 30px;
+    opacity: 0;
+}
+
+.photo-slider .slick-next {
+    left: auto;
+    right: 30px;
+}
+
+.photo-slider.slick-slider:hover .slick-next,
+.photo-slider.slick-slider:hover .slick-prev {
+    opacity: 1;
+}
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */

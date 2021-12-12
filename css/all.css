@@ -1,0 +1,70 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    scroll-padding: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffc576; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fac06e; 
+  }
+  .hello-icon{
+  width: 15px;
+  margin-top: -7px;
+  margin-left: 3px;
+  }
+  .hello-icon:hover{
+      fill : red
+  }
+  .hello-btn{
+    border: 1px solid #FFC576;
+    color: #FFC576;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 2px;
+    font-size: 14px;
+    display: inline-block;
+  }
+  .hello-btn:hover{
+      letter-spacing: 3px;
+  }
+  ::selection {
+    background-color: #FFC576;
+    color : #313552
+  }
+  .download-btn,.desc-btn{
+        color: #1f2235 !important;
+        background-color: #ffc576;
+        padding: 10px 40px 10px 40px;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #ffc576;
+        border-radius: 3px 3px 3px 3px;
+        display: inline-block;
+  }
+  .download-btn *{
+    color: #1f2235 !important;
+  }
+  .download-btn:hover{
+      letter-spacing: 3px;
+  }
+
+  .desc-footer{
+      margin-top:1.5rem
+  }
+  .desc-btn-container{
+      margin-top: 3.7rem;
+  }

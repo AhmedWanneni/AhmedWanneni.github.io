@@ -1,0 +1,151 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .sidebar.main-sidebar {
+        margin-top: 60px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .comment-list .comment-body {
+        padding: 0;
+    }
+    .comment-list .comment-body .comment-author img {
+        position: static;
+        margin: 0 5px 5px 0;
+    }
+    .comment-list .children {
+        margin: 0px;
+    }
+    .comment-list .comment-body .reply {
+        position: static;
+        margin-bottom: 15px;
+    }
+    .comment-form .comment-form-author,
+    .comment-form .comment-form-email {
+        width: 100%;
+    }
+    a#scrollUp {
+        bottom: 15px;
+        right: 15px;
+    }
+    .social-share,
+    .single-tags {
+        width: 100%
+    }
+    .single-post-navigation .nav-links {
+        display: block;
+    }
+    .single-post-navigation .nav-links .nav-previous,
+    .single-post-navigation .nav-links .nav-next {
+        width: 100%;
+        max-width: 100%;
+        text-align: center
+    }
+    .posts-list .post-content,
+    .content-boundary {
+        border: none;
+    }
+    .single-portfolio-area .single-navigation {
+        display: block;
+    }
+    .single-portfolio-area .single-navigation,
+    .single-portfolio-area .single-navigation .nav-next {
+        text-align: center;
+    }
+    .admin-bar .mainmenu-area.affix {
+        top: 0px;
+    }
+    .menu-buttons > * {
+        margin: 10px;
+    }
+    .menu-search-form .search-input {
+        padding: 30px 15px;
+        font-size: 16px;
+    }
+    .timeline-post .masonry-item {
+        width: calc(100% - 50px);
+    }
+    .error-image {
+        margin-top: 60px;
+    }
+    .footer-menu {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .footer-menu ul li {
+        display: block;
+    }
+    .footer-menu ul li a {
+        padding: 10px 0px;
+    }
+    .footer-menu ul .sub-menu {
+        position: static;
+        visibility: visible;
+        opacity: 1;
+        border: none;
+        background: none;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0;
+        padding: 0;
+    }
+    .footer-menu ul li {
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .footer-menu ul li:last-child {
+        border-bottom: none;
+    }
+    .sidebar.main-sidebar {
+        margin-top: 60px;
+    }
+    .button-sm {
+        padding: 6px 20px;
+    }
+    #scrollUp {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .copyright_text {
+        text-align: left;
+    }
+    .footer-widget .text-center {
+        text-align: left;
+    }
+    .footer-widget .text-right {
+        text-align: left;
+    }
+    .header-area .page-title {
+        font-size: 38px;
+        line-height: 48px;
+    }    
+    .footer-top-widgets {
+        margin-left: 0px;
+    }
+    .footer-widget {
+        margin-bottom: 50px;
+        padding: 0px 15px 0px 0;
+    }
+
+    .wp-block-image .alignleft {
+        margin-left: -0px;
+    }
+
+    .wp-block-image .alignright {
+        margin-right: -0px;
+    }
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (max-width: 480px) {
+    .xs-full {
+        width: 100%;
+    }
+}
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */
