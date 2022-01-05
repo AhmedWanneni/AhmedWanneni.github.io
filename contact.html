@@ -15,12 +15,7 @@
       title=" &raquo; Feed"
       href="http://localhost/wordpress/feed/"
     />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title=" &raquo; Comments Feed"
-      href="http://localhost/wordpress/comments/feed/"
-    />
+    
     <script type="text/javascript">
       window._wpemojiSettings = {
         baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/",
@@ -1024,11 +1019,9 @@
                                                 <form
                                                   action="https://formsubmit.co/ahmed.wanneni@gmail.com"
                                                   method="post"
-                                                  class="wpcf7-form init"
-                                                  novalidate="novalidate"
-                                                  data-status="init"
+                                                  
                                                 >
-                                                 
+                                                
                                                   <div class="contact-form">
                                                     <div class="row">
                                                       <div
@@ -1042,7 +1035,11 @@
                                                             wpcf7-form-control-wrap
                                                             user_name
                                                           "
-                                                          ><input
+                                                          >
+                                                          <input type="hidden" name="_autoresponse" value="Thank you for your message">
+                                                          <input type="hidden" name="_next" value="http://localhost:5500/contact.html">
+                                                          <input type="text" name="_honey" style="display:none">
+                                                          <input
                                                             type="text"
                                                             name="name"
                                                             value=""
@@ -1053,8 +1050,7 @@
                                                               wpcf7-validates-as-required
                                                               form-control-item
                                                             "
-                                                            aria-required="true"
-                                                            aria-invalid="false"
+                                                           
                                                             placeholder="Full name"
                                                         /></span>
                                                       </div>
@@ -1087,8 +1083,7 @@
                                                           wpcf7-validates-as-email
                                                           form-control-item
                                                         "
-                                                        aria-required="true"
-                                                        aria-invalid="false"
+                                                        required
                                                         placeholder="Email Address"
                                                     /></span>
                                                        
@@ -1110,8 +1105,7 @@
                                                             form-control-item
                                                           "
                                                           id="message"
-                                                          aria-required="true"
-                                                          aria-invalid="false"
+                                                         
                                                           placeholder="Message"
                                                         ></textarea>
                                                       </div>
@@ -1124,24 +1118,12 @@
                                                           text-center
                                                         "
                                                       >
-                                                        <button
-                                                          type="submit"
-                                                          class="submit-form"
-                                                        >
-                                                          <span
-                                                            class="btn__text"
-                                                            >Send</span
-                                                          >
-                                                        </button>
+                                                      <input class="submit-contact" type="submit" value="send">
+                                                        
                                                       </div>
                                                     </div>
                                                   </div>
-                                                  <div
-                                                    class="
-                                                      wpcf7-response-output
-                                                    "
-                                                    aria-hidden="true"
-                                                  ></div>
+                                                  <span class="success-contact">Thanks</span>
                                                 </form>
                                               </div>
                                             </div>
@@ -1691,21 +1673,7 @@
       src="./js/dist-vendor-wp-polyfill.min.js"
       id="wp-polyfill-js"
     ></script>
-    <script type="text/javascript" id="contact-form-7-js-extra">
-      /* <![CDATA[ */
-      var wpcf7 = {
-        api: {
-          root: "http:\/\/localhost\/wordpress\/wp-json\/",
-          namespace: "contact-form-7\/v1",
-        },
-      };
-      /* ]]> */
-    </script>
-    <script
-      type="text/javascript"
-      src="./js/contact-form-7-includes-js-index.js"
-      id="contact-form-7-js"
-    ></script>
+    
     <script
       type="text/javascript"
       src="./js/growth-assets-js-vendor-bootstrap-min.js"
@@ -1964,5 +1932,6 @@
       src="./js/growthcore-assets-js-el-widget-active.js"
       id="el-widget-active-js"
     ></script>
+    
   </body>
 </html>
